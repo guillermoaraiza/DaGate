@@ -3,7 +3,7 @@
 Introduction
 -------------
 
-This is a personal project, just to have fun and learn more about Spark and Swift (Also because I needed). I built this iOS application to send the sequence of numbers using swift to open the main gate of the garage at the office.
+This is a personal project, just to have fun and learn more about Spark and Swift (Also because I needed). I built this iOS application to send the sequence of numbers using swift to open the main gate of the garage at the office, the interface is similar to the iPhone lock screen.
 
 Configuration
 -------------

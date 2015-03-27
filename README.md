@@ -11,7 +11,7 @@ Configuration
 The module has no menu or modifiable settings. There is no further configuration.
 
 1. In order to use this application you need to create your own spark application and flashed to your spark.
-2. Change the elemets the following variables for the ones on your spark: accessToken, deviceToken & deviceFunction.
+2. Change the following variables at ViewController: accessToken, deviceToken & deviceFunction.
 3. The app sends to the specified spark function a string with 4 numbers i.e "1234"
 4. The app handle connection errors with alerts. Spark function return 1 = Correct / return 2 = Incorrect.
 

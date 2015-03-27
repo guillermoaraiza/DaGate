@@ -28,8 +28,11 @@ class ViewController: UIViewController {
     
     let alert = UIAlertView()
     
-    var accessToken = "8c5a222f2fb398a85b474245091834905a28db5c"
-    var deviceToken = "55ff6e065075555352351487"
+    
+    // CHANGE THESE ELEMENTS FOR YOURS.
+    var accessToken    = "XXXXXXXXXXXXXXXXXXXXXXX"
+    var deviceToken    = "XXXXXXXXXXXXXXXXXXXXXXX"
+    var deviceFunction = "doorControl"
     
     @IBAction func cancelButton(sender: AnyObject) {
         
@@ -139,7 +142,7 @@ class ViewController: UIViewController {
     
     private func sparkFunction(code: String) {
         
-        var url = NSURL(string: "https://api.spark.io/v1/devices/\(deviceToken)/doorControl")
+        var url = NSURL(string: "https://api.spark.io/v1/devices/\(deviceToken)/\(deviceFunction)")
         var request = NSMutableURLRequest(URL: url!)
         var session = NSURLSession.sharedSession()
         
